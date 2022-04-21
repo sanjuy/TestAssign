@@ -1,0 +1,1239 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		07A44B63FCC36379CDAC40A9801F137F /* Agrume.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4261EE6A0B03DD14052B67CC0C6FA503 /* Agrume.swift */; };
+		07BD003C0FB5FA0685A5B695199DB34D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		0AE5330B560ECC0912D0CC43C34855FF /* Pods-TestAssign-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FE1A90E4169789039B37F066F4C98F8 /* Pods-TestAssign-dummy.m */; };
+		0DE3F3BDFFD52FCA51FAEEAE97CC6661 /* AgrumeOverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D676F93AA493235EDD51436F7BC215E1 /* AgrumeOverlayView.swift */; };
+		1217925E162DC58A0780E6AB9E823EE7 /* Agrume-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AD85B2DAAD11BCCBE81B979D19C18D44 /* Agrume-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1D7ED6F8C1260A0049DD2C6A263C8351 /* AgrumeDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 573DDFE4354CA05D272E9800CF9A930F /* AgrumeDataSource.swift */; };
+		1D950D2D14337460279ACCED93E3C56A /* UIImageView+SwiftyGif.swift in Sources */ = {isa = PBXBuildFile; fileRef = C917C04322A6051665F922BDFEC22535 /* UIImageView+SwiftyGif.swift */; };
+		239897ACAA4C08A55586F1BC44DD736C /* SwiftyGif-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 13F4BC5BB672954A2F237C1B3FC52A6F /* SwiftyGif-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		26DD50ACE8B06DD174C76DCAE7396943 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		272A4223B3FA1B8ACA1E9D7F49BB14EC /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D6815DC1B92AB69DB83BA82B4D02B8E /* Configuration.swift */; };
+		299092E872DCB33DBA21A022E9E115B3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		3023C6EFCBC82F58F2D60D4F357267F0 /* NSImageView+SwiftyGif.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3916CA67E309BDE39581ED46BECBE360 /* NSImageView+SwiftyGif.swift */; };
+		330218E3E34C51A801C4998FE55461DF /* SwiftyGif-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8934ED222B90E535D30B78FD831BBD42 /* SwiftyGif-dummy.m */; };
+		388A9C851E3A00B10AE27DD584F754E7 /* With.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EB7D05DF2CEF1341391E5EE5014BDBE /* With.swift */; };
+		3CD1BCFEC0558BD24A732B420CCC5C43 /* Pods-TestAssign-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 32E30B9FC613AEF25E7111F8DD365B11 /* Pods-TestAssign-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6C9BD688CC01D335187B084D8D7C322D /* SwiftyGif.h in Headers */ = {isa = PBXBuildFile; fileRef = 7931CF43C8D88EC8588937AD9707A266 /* SwiftyGif.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7AEA522A68889B5CA0A7CE3AA8F8BCA3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		833C2B1B3889ECB1E5E538522DBA2D7B /* Pods-TestAssign-TestAssignUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F596034CAF1C925098E386B3EA79CE2C /* Pods-TestAssign-TestAssignUITests-dummy.m */; };
+		8D5DA9281735FB26B7D3AF40F06622CA /* AgrumeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C27F47BD954D5E4E9DFB24257A6F70 /* AgrumeCell.swift */; };
+		8E3C5559D48EC02D3129877FBA6DBCEA /* SwiftyGifManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1A3082003D2B94B1CB7925209AAEFD5 /* SwiftyGifManager.swift */; };
+		AA797A2B08FA1755F8CB21FB8118B8AF /* Pods-TestAssignTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C8F595BCC80B9B599C456A6545C18E72 /* Pods-TestAssignTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ADA24E1DCA3F65C82FF4F91F3592ED7F /* AgrumePhotoLibraryHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB7686A11F0021FF8150962A7B27FEC1 /* AgrumePhotoLibraryHelper.swift */; };
+		BB87DFC16EB8609E94321C3E4D6306E1 /* Pods-TestAssign-TestAssignUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C7A0DB16CFAAE355B51F0D4164B851B /* Pods-TestAssign-TestAssignUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C35137708F7C58CA1D37373A8C832E66 /* ImageDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0679D6E26BD52B6FEE800F8BBDD19E4 /* ImageDownloader.swift */; };
+		D75A2B6D563C3DE9A6E4EA2AEE10C76B /* Foundation+Agrume.swift in Sources */ = {isa = PBXBuildFile; fileRef = C256B875953D76FF7E1662870C797F58 /* Foundation+Agrume.swift */; };
+		D7F44D5AA8CED638A59D8FED701DF03C /* AgrumeImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDAC8469904AE514B55CC8D9777B72C5 /* AgrumeImage.swift */; };
+		E4BC0427308D773B70E08DC93A834D52 /* AgrumeServiceLocator.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECC39DC5377DECD280261ADAB25D9894 /* AgrumeServiceLocator.swift */; };
+		E74B206CB6792704C759AD7ECF6E7AAA /* NSImage+SwiftyGif.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2893D8C803D28B034EA3AF85A122CE4F /* NSImage+SwiftyGif.swift */; };
+		EDB810FFC4AF0ADFCCB6C2234F1579B8 /* UIKit+Agrume.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7190F411247A1D1DFB95EBC59AC1178A /* UIKit+Agrume.swift */; };
+		F83FC21D6DFA916135711F0781F1F5C9 /* Agrume-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F2D0FDCB1D7191834217DA2E1965EEB5 /* Agrume-dummy.m */; };
+		F86EB6CA2DC465679D145E953614EF6E /* Pods-TestAssignTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DA31C916D2CB1155D6758118570AE5B /* Pods-TestAssignTests-dummy.m */; };
+		F88DDAE8EFB1B35876925EE5F1DA3893 /* UIImage+SwiftyGif.swift in Sources */ = {isa = PBXBuildFile; fileRef = C42996167777FA15A077516E809D658A /* UIImage+SwiftyGif.swift */; };
+		FBDD503D2DA96725FE8CDFAE2000EE29 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		23D87CF8C5BD6CE26CF131B40D17CA1B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 15AEBAFA43912F898FC2E1A73025C946;
+			remoteInfo = SwiftyGif;
+		};
+		3FFD57BBA3AA51EA0C57102C9FCB5747 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6574B2C3F6F3AFF48D01C27506C3CCC4;
+			remoteInfo = Agrume;
+		};
+		4ACBE276F988A02DD758A3AC5109F6E0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AEBAAC91220D56C7FC47AF2EAC9658CA;
+			remoteInfo = "Pods-TestAssign";
+		};
+		577407F9F8035DC6A9EE43B6A932CF57 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 15AEBAFA43912F898FC2E1A73025C946;
+			remoteInfo = SwiftyGif;
+		};
+		986297EC59CF81AB28515A19E3035A2B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6574B2C3F6F3AFF48D01C27506C3CCC4;
+			remoteInfo = Agrume;
+		};
+		CDAD410D7E2EB65CF5F5A310D8E9E2B7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 15AEBAFA43912F898FC2E1A73025C946;
+			remoteInfo = SwiftyGif;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0883FECC4AC4DE5796E612B592C00EE0 /* SwiftyGif.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyGif.release.xcconfig; sourceTree = "<group>"; };
+		0DB1CF5EC2731FE05BB462A9DC225A27 /* Pods-TestAssign-TestAssignUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TestAssign-TestAssignUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		13F4BC5BB672954A2F237C1B3FC52A6F /* SwiftyGif-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyGif-umbrella.h"; sourceTree = "<group>"; };
+		15688839D8908FF3E44F5DD4F2238AE9 /* Pods-TestAssignTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TestAssignTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		186D1BB4DD559A92E92D80551FC20EA8 /* Agrume */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Agrume; path = Agrume.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C47B930AF5255BBC28192BFFAFA9267 /* Pods-TestAssignTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TestAssignTests.release.xcconfig"; sourceTree = "<group>"; };
+		1DD70C20BD416B72A9BCEA9F3E0DFAA4 /* SwiftyGif-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SwiftyGif-Info.plist"; sourceTree = "<group>"; };
+		1FE1A90E4169789039B37F066F4C98F8 /* Pods-TestAssign-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TestAssign-dummy.m"; sourceTree = "<group>"; };
+		217B1921A1EA69AD945FA304775BD149 /* Pods-TestAssign-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TestAssign-frameworks.sh"; sourceTree = "<group>"; };
+		27DDC4DD686B637B70F630C998927619 /* Pods-TestAssign.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TestAssign.release.xcconfig"; sourceTree = "<group>"; };
+		2893D8C803D28B034EA3AF85A122CE4F /* NSImage+SwiftyGif.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSImage+SwiftyGif.swift"; path = "SwiftyGif/NSImage+SwiftyGif.swift"; sourceTree = "<group>"; };
+		2CD80871AFB32E0387428796354119D2 /* Agrume-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Agrume-prefix.pch"; sourceTree = "<group>"; };
+		32E30B9FC613AEF25E7111F8DD365B11 /* Pods-TestAssign-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TestAssign-umbrella.h"; sourceTree = "<group>"; };
+		3671C9186B5072C465904B3B93DA8CB3 /* Pods-TestAssignTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TestAssignTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3916CA67E309BDE39581ED46BECBE360 /* NSImageView+SwiftyGif.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSImageView+SwiftyGif.swift"; path = "SwiftyGif/NSImageView+SwiftyGif.swift"; sourceTree = "<group>"; };
+		41B701AC8CE64FB151B8AFD40D1603FC /* Agrume.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Agrume.debug.xcconfig; sourceTree = "<group>"; };
+		4261EE6A0B03DD14052B67CC0C6FA503 /* Agrume.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Agrume.swift; path = Agrume/Agrume.swift; sourceTree = "<group>"; };
+		42CB4B84C8B307C4EEC1DE20284227A1 /* Pods-TestAssign-TestAssignUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TestAssign-TestAssignUITests-Info.plist"; sourceTree = "<group>"; };
+		486C81DA3A5323D984BB941D9E31445B /* Pods-TestAssignTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TestAssignTests-Info.plist"; sourceTree = "<group>"; };
+		4C7A0DB16CFAAE355B51F0D4164B851B /* Pods-TestAssign-TestAssignUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TestAssign-TestAssignUITests-umbrella.h"; sourceTree = "<group>"; };
+		4E93B76B070FBC6752EC9F1BE01FFC65 /* SwiftyGif-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyGif-prefix.pch"; sourceTree = "<group>"; };
+		4EB7D05DF2CEF1341391E5EE5014BDBE /* With.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = With.swift; path = Agrume/With.swift; sourceTree = "<group>"; };
+		56AEAC5B1B063BDE55C742A0AED0168D /* Pods-TestAssign */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-TestAssign"; path = Pods_TestAssign.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		573DDFE4354CA05D272E9800CF9A930F /* AgrumeDataSource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AgrumeDataSource.swift; path = Agrume/AgrumeDataSource.swift; sourceTree = "<group>"; };
+		5D6815DC1B92AB69DB83BA82B4D02B8E /* Configuration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Configuration.swift; path = Agrume/Configuration.swift; sourceTree = "<group>"; };
+		5E4AD72E4DC3BB7B0236288D42361FA5 /* Pods-TestAssign-TestAssignUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TestAssign-TestAssignUITests.release.xcconfig"; sourceTree = "<group>"; };
+		63CDC61B1373921E4E5CE32DC6882393 /* Pods-TestAssign-TestAssignUITests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-TestAssign-TestAssignUITests"; path = Pods_TestAssign_TestAssignUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7190F411247A1D1DFB95EBC59AC1178A /* UIKit+Agrume.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIKit+Agrume.swift"; path = "Agrume/UIKit+Agrume.swift"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		73C8CD5E2AD991E1D610FE88230606C6 /* Pods-TestAssignTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TestAssignTests.debug.xcconfig"; sourceTree = "<group>"; };
+		742113319EDD9371D89448CA6F73D5BF /* Pods-TestAssign-TestAssignUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TestAssign-TestAssignUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7931CF43C8D88EC8588937AD9707A266 /* SwiftyGif.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SwiftyGif.h; path = SwiftyGif/SwiftyGif.h; sourceTree = "<group>"; };
+		7AD67EFB9A7864151301DC2890207AA2 /* SwiftyGif */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftyGif; path = SwiftyGif.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7BFA69542B03C080DB240B8CCF4ECBB2 /* Pods-TestAssignTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TestAssignTests.modulemap"; sourceTree = "<group>"; };
+		81B7B76F0849C0A583C4DBD37E0C08A6 /* Agrume.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Agrume.release.xcconfig; sourceTree = "<group>"; };
+		8934ED222B90E535D30B78FD831BBD42 /* SwiftyGif-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftyGif-dummy.m"; sourceTree = "<group>"; };
+		9C6BEEEBEF615597017994D343BC3413 /* Pods-TestAssign.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TestAssign.debug.xcconfig"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9DA31C916D2CB1155D6758118570AE5B /* Pods-TestAssignTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TestAssignTests-dummy.m"; sourceTree = "<group>"; };
+		A1A042B5992CB2BC69A13A6A74E15312 /* Pods-TestAssign-TestAssignUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TestAssign-TestAssignUITests.modulemap"; sourceTree = "<group>"; };
+		A3ADAC012A63E3FED5B21BF4BA06B0DD /* Pods-TestAssign.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TestAssign.modulemap"; sourceTree = "<group>"; };
+		A81252443FDD4B30D38825154ADED3DB /* Agrume-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Agrume-Info.plist"; sourceTree = "<group>"; };
+		AB7686A11F0021FF8150962A7B27FEC1 /* AgrumePhotoLibraryHelper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AgrumePhotoLibraryHelper.swift; path = Agrume/AgrumePhotoLibraryHelper.swift; sourceTree = "<group>"; };
+		AD85B2DAAD11BCCBE81B979D19C18D44 /* Agrume-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Agrume-umbrella.h"; sourceTree = "<group>"; };
+		BDAC8469904AE514B55CC8D9777B72C5 /* AgrumeImage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AgrumeImage.swift; path = Agrume/AgrumeImage.swift; sourceTree = "<group>"; };
+		C16A05C231DDCA6286D2DD32992BFD6B /* SwiftyGif.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwiftyGif.modulemap; sourceTree = "<group>"; };
+		C24A3FEB9FD9708E9B428FCB89C293FA /* SwiftyGif.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyGif.debug.xcconfig; sourceTree = "<group>"; };
+		C256B875953D76FF7E1662870C797F58 /* Foundation+Agrume.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Foundation+Agrume.swift"; path = "Agrume/Foundation+Agrume.swift"; sourceTree = "<group>"; };
+		C42996167777FA15A077516E809D658A /* UIImage+SwiftyGif.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIImage+SwiftyGif.swift"; path = "SwiftyGif/UIImage+SwiftyGif.swift"; sourceTree = "<group>"; };
+		C7DDEDBECF01767648A701F8F89058FA /* Pods-TestAssign-TestAssignUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TestAssign-TestAssignUITests-frameworks.sh"; sourceTree = "<group>"; };
+		C8F595BCC80B9B599C456A6545C18E72 /* Pods-TestAssignTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TestAssignTests-umbrella.h"; sourceTree = "<group>"; };
+		C917C04322A6051665F922BDFEC22535 /* UIImageView+SwiftyGif.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIImageView+SwiftyGif.swift"; path = "SwiftyGif/UIImageView+SwiftyGif.swift"; sourceTree = "<group>"; };
+		D0D1D8EE3450B0D4131928417AEA3BAB /* Agrume.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Agrume.modulemap; sourceTree = "<group>"; };
+		D1A3082003D2B94B1CB7925209AAEFD5 /* SwiftyGifManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftyGifManager.swift; path = SwiftyGif/SwiftyGifManager.swift; sourceTree = "<group>"; };
+		D3C27F47BD954D5E4E9DFB24257A6F70 /* AgrumeCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AgrumeCell.swift; path = Agrume/AgrumeCell.swift; sourceTree = "<group>"; };
+		D655B1F45E589FAD9D78BC84902B95CF /* Pods-TestAssign-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TestAssign-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D676F93AA493235EDD51436F7BC215E1 /* AgrumeOverlayView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AgrumeOverlayView.swift; path = Agrume/AgrumeOverlayView.swift; sourceTree = "<group>"; };
+		E0679D6E26BD52B6FEE800F8BBDD19E4 /* ImageDownloader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageDownloader.swift; path = Agrume/ImageDownloader.swift; sourceTree = "<group>"; };
+		ECC39DC5377DECD280261ADAB25D9894 /* AgrumeServiceLocator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AgrumeServiceLocator.swift; path = Agrume/AgrumeServiceLocator.swift; sourceTree = "<group>"; };
+		F0385F01E7FDCEC02F9D92430D5977A0 /* Pods-TestAssign-TestAssignUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TestAssign-TestAssignUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		F2D0FDCB1D7191834217DA2E1965EEB5 /* Agrume-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Agrume-dummy.m"; sourceTree = "<group>"; };
+		F596034CAF1C925098E386B3EA79CE2C /* Pods-TestAssign-TestAssignUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TestAssign-TestAssignUITests-dummy.m"; sourceTree = "<group>"; };
+		FB5FBB53A2E62E8B98A32099845A4BB9 /* Pods-TestAssignTests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-TestAssignTests"; path = Pods_TestAssignTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDD4D9DD3FDF8FA1C016DFD64BB65B21 /* Pods-TestAssign-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TestAssign-acknowledgements.plist"; sourceTree = "<group>"; };
+		FF7FC4338EC33145568680D479D6E9C7 /* Pods-TestAssign-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TestAssign-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2DE95CA6424EA93047B2CD06E8AD7C60 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7AEA522A68889B5CA0A7CE3AA8F8BCA3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		328AF29CDFEB1C0C359A1137B28A7BCF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				299092E872DCB33DBA21A022E9E115B3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F9A31B9FFAC3D59C16995BE583A37C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26DD50ACE8B06DD174C76DCAE7396943 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD4B9F1C3EC9E48EFE7758954A758026 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07BD003C0FB5FA0685A5B695199DB34D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7A0F5BCA48237FAAF169C2CF0CEFFD6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBDD503D2DA96725FE8CDFAE2000EE29 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0AE7F4658C1A887CE56C1B2AB38AAE54 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C16A05C231DDCA6286D2DD32992BFD6B /* SwiftyGif.modulemap */,
+				8934ED222B90E535D30B78FD831BBD42 /* SwiftyGif-dummy.m */,
+				1DD70C20BD416B72A9BCEA9F3E0DFAA4 /* SwiftyGif-Info.plist */,
+				4E93B76B070FBC6752EC9F1BE01FFC65 /* SwiftyGif-prefix.pch */,
+				13F4BC5BB672954A2F237C1B3FC52A6F /* SwiftyGif-umbrella.h */,
+				C24A3FEB9FD9708E9B428FCB89C293FA /* SwiftyGif.debug.xcconfig */,
+				0883FECC4AC4DE5796E612B592C00EE0 /* SwiftyGif.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftyGif";
+			sourceTree = "<group>";
+		};
+		216D48F7F170117B1272462C1A66F126 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				186D1BB4DD559A92E92D80551FC20EA8 /* Agrume */,
+				56AEAC5B1B063BDE55C742A0AED0168D /* Pods-TestAssign */,
+				63CDC61B1373921E4E5CE32DC6882393 /* Pods-TestAssign-TestAssignUITests */,
+				FB5FBB53A2E62E8B98A32099845A4BB9 /* Pods-TestAssignTests */,
+				7AD67EFB9A7864151301DC2890207AA2 /* SwiftyGif */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		522D5C964949B793394D9AF284C14C58 /* Pods-TestAssign */ = {
+			isa = PBXGroup;
+			children = (
+				A3ADAC012A63E3FED5B21BF4BA06B0DD /* Pods-TestAssign.modulemap */,
+				D655B1F45E589FAD9D78BC84902B95CF /* Pods-TestAssign-acknowledgements.markdown */,
+				FDD4D9DD3FDF8FA1C016DFD64BB65B21 /* Pods-TestAssign-acknowledgements.plist */,
+				1FE1A90E4169789039B37F066F4C98F8 /* Pods-TestAssign-dummy.m */,
+				217B1921A1EA69AD945FA304775BD149 /* Pods-TestAssign-frameworks.sh */,
+				FF7FC4338EC33145568680D479D6E9C7 /* Pods-TestAssign-Info.plist */,
+				32E30B9FC613AEF25E7111F8DD365B11 /* Pods-TestAssign-umbrella.h */,
+				9C6BEEEBEF615597017994D343BC3413 /* Pods-TestAssign.debug.xcconfig */,
+				27DDC4DD686B637B70F630C998927619 /* Pods-TestAssign.release.xcconfig */,
+			);
+			name = "Pods-TestAssign";
+			path = "Target Support Files/Pods-TestAssign";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		710865EE68D8C9CBBF083AD545EAC031 /* Agrume */ = {
+			isa = PBXGroup;
+			children = (
+				4261EE6A0B03DD14052B67CC0C6FA503 /* Agrume.swift */,
+				D3C27F47BD954D5E4E9DFB24257A6F70 /* AgrumeCell.swift */,
+				573DDFE4354CA05D272E9800CF9A930F /* AgrumeDataSource.swift */,
+				BDAC8469904AE514B55CC8D9777B72C5 /* AgrumeImage.swift */,
+				D676F93AA493235EDD51436F7BC215E1 /* AgrumeOverlayView.swift */,
+				AB7686A11F0021FF8150962A7B27FEC1 /* AgrumePhotoLibraryHelper.swift */,
+				ECC39DC5377DECD280261ADAB25D9894 /* AgrumeServiceLocator.swift */,
+				5D6815DC1B92AB69DB83BA82B4D02B8E /* Configuration.swift */,
+				C256B875953D76FF7E1662870C797F58 /* Foundation+Agrume.swift */,
+				E0679D6E26BD52B6FEE800F8BBDD19E4 /* ImageDownloader.swift */,
+				7190F411247A1D1DFB95EBC59AC1178A /* UIKit+Agrume.swift */,
+				4EB7D05DF2CEF1341391E5EE5014BDBE /* With.swift */,
+				AD96971BE3E604DAB88C80368D6E1D80 /* Support Files */,
+			);
+			name = Agrume;
+			path = Agrume;
+			sourceTree = "<group>";
+		};
+		8623B7DC98841D76092AB2B6753A44C3 /* SwiftyGif */ = {
+			isa = PBXGroup;
+			children = (
+				2893D8C803D28B034EA3AF85A122CE4F /* NSImage+SwiftyGif.swift */,
+				3916CA67E309BDE39581ED46BECBE360 /* NSImageView+SwiftyGif.swift */,
+				7931CF43C8D88EC8588937AD9707A266 /* SwiftyGif.h */,
+				D1A3082003D2B94B1CB7925209AAEFD5 /* SwiftyGifManager.swift */,
+				C42996167777FA15A077516E809D658A /* UIImage+SwiftyGif.swift */,
+				C917C04322A6051665F922BDFEC22535 /* UIImageView+SwiftyGif.swift */,
+				0AE7F4658C1A887CE56C1B2AB38AAE54 /* Support Files */,
+			);
+			name = SwiftyGif;
+			path = SwiftyGif;
+			sourceTree = "<group>";
+		};
+		AA3BAF6562AE57DC82E0FEF12C316E11 /* Pods-TestAssignTests */ = {
+			isa = PBXGroup;
+			children = (
+				7BFA69542B03C080DB240B8CCF4ECBB2 /* Pods-TestAssignTests.modulemap */,
+				3671C9186B5072C465904B3B93DA8CB3 /* Pods-TestAssignTests-acknowledgements.markdown */,
+				15688839D8908FF3E44F5DD4F2238AE9 /* Pods-TestAssignTests-acknowledgements.plist */,
+				9DA31C916D2CB1155D6758118570AE5B /* Pods-TestAssignTests-dummy.m */,
+				486C81DA3A5323D984BB941D9E31445B /* Pods-TestAssignTests-Info.plist */,
+				C8F595BCC80B9B599C456A6545C18E72 /* Pods-TestAssignTests-umbrella.h */,
+				73C8CD5E2AD991E1D610FE88230606C6 /* Pods-TestAssignTests.debug.xcconfig */,
+				1C47B930AF5255BBC28192BFFAFA9267 /* Pods-TestAssignTests.release.xcconfig */,
+			);
+			name = "Pods-TestAssignTests";
+			path = "Target Support Files/Pods-TestAssignTests";
+			sourceTree = "<group>";
+		};
+		AB095BB555327896D1DF5D1A35B9840C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				710865EE68D8C9CBBF083AD545EAC031 /* Agrume */,
+				8623B7DC98841D76092AB2B6753A44C3 /* SwiftyGif */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		AD96971BE3E604DAB88C80368D6E1D80 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D0D1D8EE3450B0D4131928417AEA3BAB /* Agrume.modulemap */,
+				F2D0FDCB1D7191834217DA2E1965EEB5 /* Agrume-dummy.m */,
+				A81252443FDD4B30D38825154ADED3DB /* Agrume-Info.plist */,
+				2CD80871AFB32E0387428796354119D2 /* Agrume-prefix.pch */,
+				AD85B2DAAD11BCCBE81B979D19C18D44 /* Agrume-umbrella.h */,
+				41B701AC8CE64FB151B8AFD40D1603FC /* Agrume.debug.xcconfig */,
+				81B7B76F0849C0A583C4DBD37E0C08A6 /* Agrume.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Agrume";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				AB095BB555327896D1DF5D1A35B9840C /* Pods */,
+				216D48F7F170117B1272462C1A66F126 /* Products */,
+				D45C1086811AC3DE2EE355AC10AFF7EC /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D45C1086811AC3DE2EE355AC10AFF7EC /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				522D5C964949B793394D9AF284C14C58 /* Pods-TestAssign */,
+				FD7FAB52BF5DC9B4667C9E90A5EFAE42 /* Pods-TestAssign-TestAssignUITests */,
+				AA3BAF6562AE57DC82E0FEF12C316E11 /* Pods-TestAssignTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		FD7FAB52BF5DC9B4667C9E90A5EFAE42 /* Pods-TestAssign-TestAssignUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A1A042B5992CB2BC69A13A6A74E15312 /* Pods-TestAssign-TestAssignUITests.modulemap */,
+				742113319EDD9371D89448CA6F73D5BF /* Pods-TestAssign-TestAssignUITests-acknowledgements.markdown */,
+				0DB1CF5EC2731FE05BB462A9DC225A27 /* Pods-TestAssign-TestAssignUITests-acknowledgements.plist */,
+				F596034CAF1C925098E386B3EA79CE2C /* Pods-TestAssign-TestAssignUITests-dummy.m */,
+				C7DDEDBECF01767648A701F8F89058FA /* Pods-TestAssign-TestAssignUITests-frameworks.sh */,
+				42CB4B84C8B307C4EEC1DE20284227A1 /* Pods-TestAssign-TestAssignUITests-Info.plist */,
+				4C7A0DB16CFAAE355B51F0D4164B851B /* Pods-TestAssign-TestAssignUITests-umbrella.h */,
+				F0385F01E7FDCEC02F9D92430D5977A0 /* Pods-TestAssign-TestAssignUITests.debug.xcconfig */,
+				5E4AD72E4DC3BB7B0236288D42361FA5 /* Pods-TestAssign-TestAssignUITests.release.xcconfig */,
+			);
+			name = "Pods-TestAssign-TestAssignUITests";
+			path = "Target Support Files/Pods-TestAssign-TestAssignUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		428C5FB111B83597F50C46FFC64FAE81 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA797A2B08FA1755F8CB21FB8118B8AF /* Pods-TestAssignTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E8CA9A514AC727D9B463698EDD4EA22 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1217925E162DC58A0780E6AB9E823EE7 /* Agrume-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B782E19BE882A19763FA09EF53041DFC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CD1BCFEC0558BD24A732B420CCC5C43 /* Pods-TestAssign-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCB1A6E57A99CE30CD246E4BCB3BAACC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C9BD688CC01D335187B084D8D7C322D /* SwiftyGif.h in Headers */,
+				239897ACAA4C08A55586F1BC44DD736C /* SwiftyGif-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D95B346236C792E1D1D2ACE96EA69CBE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB87DFC16EB8609E94321C3E4D6306E1 /* Pods-TestAssign-TestAssignUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		15AEBAFA43912F898FC2E1A73025C946 /* SwiftyGif */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4CCC7279DB310DB58FA69B3952AA31D7 /* Build configuration list for PBXNativeTarget "SwiftyGif" */;
+			buildPhases = (
+				CCB1A6E57A99CE30CD246E4BCB3BAACC /* Headers */,
+				6FF121650C9BF52DF74C381C00FA2695 /* Sources */,
+				328AF29CDFEB1C0C359A1137B28A7BCF /* Frameworks */,
+				B88017C593BCF64DD99AFD8783E297BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftyGif;
+			productName = SwiftyGif;
+			productReference = 7AD67EFB9A7864151301DC2890207AA2 /* SwiftyGif */;
+			productType = "com.apple.product-type.framework";
+		};
+		632339B676D770BA0771D46CD253C5C6 /* Pods-TestAssign-TestAssignUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D84F11B31828889B7465DC0BBC75D1C5 /* Build configuration list for PBXNativeTarget "Pods-TestAssign-TestAssignUITests" */;
+			buildPhases = (
+				D95B346236C792E1D1D2ACE96EA69CBE /* Headers */,
+				6CE626CB81C50C51FB46811F3E51AFD0 /* Sources */,
+				2DE95CA6424EA93047B2CD06E8AD7C60 /* Frameworks */,
+				C55A8FD5DFF7C72F7B9A3F6056228FC9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				230923D380FBA68CC6F4C90EAB933410 /* PBXTargetDependency */,
+				6FDB449A454D5303AF763337D89B2AB1 /* PBXTargetDependency */,
+			);
+			name = "Pods-TestAssign-TestAssignUITests";
+			productName = Pods_TestAssign_TestAssignUITests;
+			productReference = 63CDC61B1373921E4E5CE32DC6882393 /* Pods-TestAssign-TestAssignUITests */;
+			productType = "com.apple.product-type.framework";
+		};
+		6574B2C3F6F3AFF48D01C27506C3CCC4 /* Agrume */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A28A3FE77D9E119DFD56A4639CD9F00 /* Build configuration list for PBXNativeTarget "Agrume" */;
+			buildPhases = (
+				4E8CA9A514AC727D9B463698EDD4EA22 /* Headers */,
+				C0CB9029E62CED2CE0D3A5885BFE26F5 /* Sources */,
+				BD4B9F1C3EC9E48EFE7758954A758026 /* Frameworks */,
+				9CBD79456A5E3FAE7F43F3E9E5F2110D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A0F03866A7FD757F04BABF4A8507A5D1 /* PBXTargetDependency */,
+			);
+			name = Agrume;
+			productName = Agrume;
+			productReference = 186D1BB4DD559A92E92D80551FC20EA8 /* Agrume */;
+			productType = "com.apple.product-type.framework";
+		};
+		AEBAAC91220D56C7FC47AF2EAC9658CA /* Pods-TestAssign */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A84E75F001879E601F6B5BC8B1BEC4CC /* Build configuration list for PBXNativeTarget "Pods-TestAssign" */;
+			buildPhases = (
+				B782E19BE882A19763FA09EF53041DFC /* Headers */,
+				BB1979E490AF7C178AD601B61915DAC0 /* Sources */,
+				F7A0F5BCA48237FAAF169C2CF0CEFFD6 /* Frameworks */,
+				72D7B6DF38E27B0A9A8E9CBF6AE87CDE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C5BCF03287B07842FE9A6D522AB4964E /* PBXTargetDependency */,
+				9089387B48830AC730385B16F6EE4716 /* PBXTargetDependency */,
+			);
+			name = "Pods-TestAssign";
+			productName = Pods_TestAssign;
+			productReference = 56AEAC5B1B063BDE55C742A0AED0168D /* Pods-TestAssign */;
+			productType = "com.apple.product-type.framework";
+		};
+		D0986790455BAA01E4ACC71F212788BE /* Pods-TestAssignTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 14C129866DA8FC3C216EF51882C2FA29 /* Build configuration list for PBXNativeTarget "Pods-TestAssignTests" */;
+			buildPhases = (
+				428C5FB111B83597F50C46FFC64FAE81 /* Headers */,
+				617D689E056E91EC9ADEFD24A42ED18E /* Sources */,
+				3F9A31B9FFAC3D59C16995BE583A37C9 /* Frameworks */,
+				238F911BDCBBD60CBEF186A2495D82EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				14EE2273FF851AD9D9215BB55437ADA4 /* PBXTargetDependency */,
+			);
+			name = "Pods-TestAssignTests";
+			productName = Pods_TestAssignTests;
+			productReference = FB5FBB53A2E62E8B98A32099845A4BB9 /* Pods-TestAssignTests */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 216D48F7F170117B1272462C1A66F126 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6574B2C3F6F3AFF48D01C27506C3CCC4 /* Agrume */,
+				AEBAAC91220D56C7FC47AF2EAC9658CA /* Pods-TestAssign */,
+				632339B676D770BA0771D46CD253C5C6 /* Pods-TestAssign-TestAssignUITests */,
+				D0986790455BAA01E4ACC71F212788BE /* Pods-TestAssignTests */,
+				15AEBAFA43912F898FC2E1A73025C946 /* SwiftyGif */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		238F911BDCBBD60CBEF186A2495D82EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72D7B6DF38E27B0A9A8E9CBF6AE87CDE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9CBD79456A5E3FAE7F43F3E9E5F2110D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B88017C593BCF64DD99AFD8783E297BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C55A8FD5DFF7C72F7B9A3F6056228FC9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		617D689E056E91EC9ADEFD24A42ED18E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F86EB6CA2DC465679D145E953614EF6E /* Pods-TestAssignTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6CE626CB81C50C51FB46811F3E51AFD0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				833C2B1B3889ECB1E5E538522DBA2D7B /* Pods-TestAssign-TestAssignUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FF121650C9BF52DF74C381C00FA2695 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E74B206CB6792704C759AD7ECF6E7AAA /* NSImage+SwiftyGif.swift in Sources */,
+				3023C6EFCBC82F58F2D60D4F357267F0 /* NSImageView+SwiftyGif.swift in Sources */,
+				330218E3E34C51A801C4998FE55461DF /* SwiftyGif-dummy.m in Sources */,
+				8E3C5559D48EC02D3129877FBA6DBCEA /* SwiftyGifManager.swift in Sources */,
+				F88DDAE8EFB1B35876925EE5F1DA3893 /* UIImage+SwiftyGif.swift in Sources */,
+				1D950D2D14337460279ACCED93E3C56A /* UIImageView+SwiftyGif.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB1979E490AF7C178AD601B61915DAC0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AE5330B560ECC0912D0CC43C34855FF /* Pods-TestAssign-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0CB9029E62CED2CE0D3A5885BFE26F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07A44B63FCC36379CDAC40A9801F137F /* Agrume.swift in Sources */,
+				F83FC21D6DFA916135711F0781F1F5C9 /* Agrume-dummy.m in Sources */,
+				8D5DA9281735FB26B7D3AF40F06622CA /* AgrumeCell.swift in Sources */,
+				1D7ED6F8C1260A0049DD2C6A263C8351 /* AgrumeDataSource.swift in Sources */,
+				D7F44D5AA8CED638A59D8FED701DF03C /* AgrumeImage.swift in Sources */,
+				0DE3F3BDFFD52FCA51FAEEAE97CC6661 /* AgrumeOverlayView.swift in Sources */,
+				ADA24E1DCA3F65C82FF4F91F3592ED7F /* AgrumePhotoLibraryHelper.swift in Sources */,
+				E4BC0427308D773B70E08DC93A834D52 /* AgrumeServiceLocator.swift in Sources */,
+				272A4223B3FA1B8ACA1E9D7F49BB14EC /* Configuration.swift in Sources */,
+				D75A2B6D563C3DE9A6E4EA2AEE10C76B /* Foundation+Agrume.swift in Sources */,
+				C35137708F7C58CA1D37373A8C832E66 /* ImageDownloader.swift in Sources */,
+				EDB810FFC4AF0ADFCCB6C2234F1579B8 /* UIKit+Agrume.swift in Sources */,
+				388A9C851E3A00B10AE27DD584F754E7 /* With.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		14EE2273FF851AD9D9215BB55437ADA4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-TestAssign";
+			target = AEBAAC91220D56C7FC47AF2EAC9658CA /* Pods-TestAssign */;
+			targetProxy = 4ACBE276F988A02DD758A3AC5109F6E0 /* PBXContainerItemProxy */;
+		};
+		230923D380FBA68CC6F4C90EAB933410 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Agrume;
+			target = 6574B2C3F6F3AFF48D01C27506C3CCC4 /* Agrume */;
+			targetProxy = 986297EC59CF81AB28515A19E3035A2B /* PBXContainerItemProxy */;
+		};
+		6FDB449A454D5303AF763337D89B2AB1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftyGif;
+			target = 15AEBAFA43912F898FC2E1A73025C946 /* SwiftyGif */;
+			targetProxy = 577407F9F8035DC6A9EE43B6A932CF57 /* PBXContainerItemProxy */;
+		};
+		9089387B48830AC730385B16F6EE4716 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftyGif;
+			target = 15AEBAFA43912F898FC2E1A73025C946 /* SwiftyGif */;
+			targetProxy = CDAD410D7E2EB65CF5F5A310D8E9E2B7 /* PBXContainerItemProxy */;
+		};
+		A0F03866A7FD757F04BABF4A8507A5D1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftyGif;
+			target = 15AEBAFA43912F898FC2E1A73025C946 /* SwiftyGif */;
+			targetProxy = 23D87CF8C5BD6CE26CF131B40D17CA1B /* PBXContainerItemProxy */;
+		};
+		C5BCF03287B07842FE9A6D522AB4964E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Agrume;
+			target = 6574B2C3F6F3AFF48D01C27506C3CCC4 /* Agrume */;
+			targetProxy = 3FFD57BBA3AA51EA0C57102C9FCB5747 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		53DCEAE859C337B78A43187BA5BD2A25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C6BEEEBEF615597017994D343BC3413 /* Pods-TestAssign.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TestAssign/Pods-TestAssign-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TestAssign/Pods-TestAssign.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		698524BE865197386FADE5C87B674139 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 27DDC4DD686B637B70F630C998927619 /* Pods-TestAssign.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TestAssign/Pods-TestAssign-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TestAssign/Pods-TestAssign.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		891A1023F8017F1B435999A694E42BC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 41B701AC8CE64FB151B8AFD40D1603FC /* Agrume.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Agrume/Agrume-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Agrume/Agrume-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Agrume/Agrume.modulemap";
+				PRODUCT_MODULE_NAME = Agrume;
+				PRODUCT_NAME = Agrume;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		92486E5E72E54FAF60E1A7D022C21B10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		934ED2B84836A780113D1F63484628B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		99803BDF62948300542BA2382E3F2310 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C24A3FEB9FD9708E9B428FCB89C293FA /* SwiftyGif.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyGif/SwiftyGif-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyGif/SwiftyGif-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SwiftyGif/SwiftyGif.modulemap";
+				PRODUCT_MODULE_NAME = SwiftyGif;
+				PRODUCT_NAME = SwiftyGif;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9B3374EFD09AE27C6B5127067175E402 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F0385F01E7FDCEC02F9D92430D5977A0 /* Pods-TestAssign-TestAssignUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TestAssign-TestAssignUITests/Pods-TestAssign-TestAssignUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TestAssign-TestAssignUITests/Pods-TestAssign-TestAssignUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A388E387DE2E0124FB4B239D2BA82FF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0883FECC4AC4DE5796E612B592C00EE0 /* SwiftyGif.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyGif/SwiftyGif-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyGif/SwiftyGif-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SwiftyGif/SwiftyGif.modulemap";
+				PRODUCT_MODULE_NAME = SwiftyGif;
+				PRODUCT_NAME = SwiftyGif;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BD8D5730673A792C34FF411DB89824C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 81B7B76F0849C0A583C4DBD37E0C08A6 /* Agrume.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Agrume/Agrume-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Agrume/Agrume-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Agrume/Agrume.modulemap";
+				PRODUCT_MODULE_NAME = Agrume;
+				PRODUCT_NAME = Agrume;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C4B7CDC0212374A3B045E3F2BB41A952 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E4AD72E4DC3BB7B0236288D42361FA5 /* Pods-TestAssign-TestAssignUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TestAssign-TestAssignUITests/Pods-TestAssign-TestAssignUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TestAssign-TestAssignUITests/Pods-TestAssign-TestAssignUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C9529FFEB3FEBDC0543CDDBFC4B66D63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C47B930AF5255BBC28192BFFAFA9267 /* Pods-TestAssignTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TestAssignTests/Pods-TestAssignTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TestAssignTests/Pods-TestAssignTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E289E7A5E69E0734C775F270DCCC52D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 73C8CD5E2AD991E1D610FE88230606C6 /* Pods-TestAssignTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TestAssignTests/Pods-TestAssignTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TestAssignTests/Pods-TestAssignTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		14C129866DA8FC3C216EF51882C2FA29 /* Build configuration list for PBXNativeTarget "Pods-TestAssignTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E289E7A5E69E0734C775F270DCCC52D5 /* Debug */,
+				C9529FFEB3FEBDC0543CDDBFC4B66D63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1A28A3FE77D9E119DFD56A4639CD9F00 /* Build configuration list for PBXNativeTarget "Agrume" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				891A1023F8017F1B435999A694E42BC9 /* Debug */,
+				BD8D5730673A792C34FF411DB89824C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				934ED2B84836A780113D1F63484628B2 /* Debug */,
+				92486E5E72E54FAF60E1A7D022C21B10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4CCC7279DB310DB58FA69B3952AA31D7 /* Build configuration list for PBXNativeTarget "SwiftyGif" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99803BDF62948300542BA2382E3F2310 /* Debug */,
+				A388E387DE2E0124FB4B239D2BA82FF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A84E75F001879E601F6B5BC8B1BEC4CC /* Build configuration list for PBXNativeTarget "Pods-TestAssign" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53DCEAE859C337B78A43187BA5BD2A25 /* Debug */,
+				698524BE865197386FADE5C87B674139 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D84F11B31828889B7465DC0BBC75D1C5 /* Build configuration list for PBXNativeTarget "Pods-TestAssign-TestAssignUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B3374EFD09AE27C6B5127067175E402 /* Debug */,
+				C4B7CDC0212374A3B045E3F2BB41A952 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
